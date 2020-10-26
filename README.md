@@ -1,13 +1,13 @@
 # test-ping-pong
 
-#Teste Lógica de Programação
+## Teste Lógica de Programação
 
-#Instruções:
+### Instruções:
 
 - Pode-se utilizar qualquer linguagem de programação;
 - Não queremos telas de sistema, apenas a lógica utilizado para resolução do exercício abaixo;
 
-#Placar de Ping-Pong:
+### Placar de Ping-Pong:
 
 Jogar Ping-Pong pode ser bem divertido. Porém, após uma longa partida, é fácil de esquecer de quem é a vez de sacar.
 
@@ -17,13 +17,13 @@ Estaremos jogando o ping-pong old-school, então a regra é que os jogadores tro
 
 Um jogo termina quando um dos jogadores chega em ''21'' pontos com uma liderança mínima de 2 pontos. Porém, caso um jogo chegue numa pontuação "20:20", o vencedor será o primeiro jogador a alcançar uma liderança de 2 pontos.
 
-#Observações:
+### Observações:
 
 - Não há necessidade de validar as entradas, considere que elas sempre estarão em formato válido;
 - Não é necessário checar se um dos jogadores já ganhou, este caso não será utilizado nos testes do algoritmo;
 - O "jogador a" sempre começa sacando;
 
-#Exemplos:
+### Exemplos:
 
 Exemplos de chamada de função:
 ```php
@@ -33,7 +33,7 @@ saque("21:20"); // retorna "jogador a"
 saque("21:22"); // retorna "jogador b"
 ```
 
-#Executar o teste:
+### Executar o teste:
 
 Para executar o teste só passar os valores entre as aspas conforme código abaixo:
 ```yaml
